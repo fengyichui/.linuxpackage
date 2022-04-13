@@ -9,3 +9,10 @@
 - [gh](https://github.com/cli/cli.git): GitHub’s official command line tool
 - [clash](https://github.com/Dreamacro/clash.git): A rule-based tunnel in Go.
 
+# Linux old packages that fix some issues
+
+> $ sudo apt install ./filename.deb
+
+- libgc1_8.0.6-1.1build1_amd64.deb: fix w3m dead issue in WSL1 Ubuntu 20.04-21.10
+- gzip_1.10-4ubuntu1_amd64.deb: fix w3m dead issue in WSL1 Ubuntu 22.04
+

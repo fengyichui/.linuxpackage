@@ -1,4 +1,18 @@
-# Linux packages collection
+
+# Linux packages
+
+## Install command
+
+```sh
+$ sudo apt install ./filename.deb
+```
+
+## Packages search (Ubuntu)
+
+https://packages.ubuntu.com
+
+
+# Common packages
 
 - [frp](https://github.com/fatedier/frp.git): A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet
 - [git-delta](https://github.com/dandavison/delta.git): A syntax-highlighting pager for git, diff, and grep output.
@@ -9,9 +23,8 @@
 - [gh](https://github.com/cli/cli.git): GitHub’s official command line tool
 - [clash](https://github.com/Dreamacro/clash.git): A rule-based tunnel in Go.
 
-# Linux old packages that fix some issues
 
-> $ sudo apt install ./filename.deb
+# Fix some issues packages
 
 - libgc1_8.0.6-1.1build1_amd64.deb: fix w3m dead issue in WSL1 Ubuntu 20.04-21.10
 - gzip_1.10-4ubuntu1_amd64.deb: fix w3m dead issue in WSL1 Ubuntu 22.04

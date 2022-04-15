@@ -5,6 +5,7 @@
 
 ```sh
 $ sudo apt install ./filename.deb
+$ sudo apt-mark hold packagename
 ```
 
 ## Packages search (Ubuntu)
